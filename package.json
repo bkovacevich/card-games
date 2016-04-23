@@ -1,0 +1,29 @@
+{
+  "name": "card-games",
+  "version": "0.0.1",
+  "description": "A simple app to play card games online",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node node_modules/.bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkovacevich/card-games.git"
+  },
+  "keywords": [
+    "card",
+    "games"
+  ],
+  "author": "Bernhard Kovacevich & Donald Scott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bkovacevich/card-games/issues"
+  },
+  "homepage": "https://github.com/bkovacevich/card-games#readme",
+  "dependencies": {
+    "mocha": "^2.4.5"
+  }
+}
