@@ -12,6 +12,9 @@ MTG.prototype.parse = function(htmlText) {
   var types = $(".value", "#ctl00_ctl00_ctl00_MainContent_SubContent_SubContent_ctl02_typeRow").text();
   cardData.types = types.replace(/^\W+/g, '');
 
+  var name = $(".value", "#ctl00_ctl00_ctl00_MainContent_SubContent_SubContent_ctl02_nameRow").text();
+  cardData.name = name.replace(/^\W+/g, '');
+
   return cardData;
 };
 

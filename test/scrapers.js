@@ -24,7 +24,13 @@ describe('MTG scraper', function() {
         var cardData = MTGScraper.parse(html);
 
         expect(cardData.types).to.equal("Creature  — Human Insect");
+        expect(cardData.name).to.equal("Aberrant Researcher");
         done();
+      });
+    });
+
+    context('When the html describes one card', function() {
+      it.skip('parses the data of the card', function(done) {
       });
     });
   });
